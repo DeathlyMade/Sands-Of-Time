@@ -1,15 +1,16 @@
 # Sands of Time (Treasure Hunt Organised by 8Bit - Magazine Club of IIITB)
 
-##About
+## About
 A website which helped 8Bit, the magazine club of IIITB in conducting a treasure hunt event for Synergy (Techfest of IIITB)
 
-##TechStack
-1.Django
-2.Sql
-3.Python
-4.Javascript
-5.HTML
-6.CSS
+## TechStack
+1. **Django**
+2. **SQL**
+3. **Python**
+4. **JavaScript**
+5. **HTML**
+6. **CSS**
+
 
 ## Description
 This project contains a Django application that handles user authentication. It includes a login page where users can enter their email and password to access the system. You can enter passcodes to gain sand (points) and time. The website uses sql database to identify which codes are sand and which are time and increase the timer/points accordingly. The database also ensures that one won't gain points for entering the same code more than once. Finally you can also see a leaderboard once you login. 
