@@ -26,5 +26,8 @@ The website was used by around 300 students to enter codes.
 ## Usage
 Open your web browser and navigate to `localhost:8000\login` to access the login page.
 
+## Deployment
+Go to `https://sarvesh521.pythonanywhere.com/participant` to checkoout the site!!
+
 ## Next Steps
 Using django channels to implement websockets will be a good step forward. It will help in solving the issue of reloading the page evertime one has to look at the leaderboard for any changes. Using websockets this problem will be solved and it will give more user-friendly experience. 
