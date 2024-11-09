@@ -80,7 +80,9 @@ d = {
     "G_monke_time": 100,
     "G_bat_alley": 100,
     "G_emotional_support": 100,
-    "G_guardian_grid": 100
+    "G_guardian_grid": 100,
+    "G_PDA_Haven": 100,
+    "G_sir_lundry": 100,
 }
 k_l=list(d.keys())
 v_l=list(d.values())
