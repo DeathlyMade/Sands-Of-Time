@@ -1,14 +1,4 @@
 services:
-  mysql:
-    container_name: mysql
-    image: mysql
-    volumes:
-      - ./db_data:/var/lib/mysql
-    restart: always
-    env_file:
-      - .env
-    ports:
-      - "6000:3306"
 
   djangoapp:
     container_name: djangoapp
@@ -16,7 +6,5 @@ services:
     command: python manage.py runserver 0.0.0.0:80
     ports:
       - "80:80"
-    depends_on:
-      - mysql
     env_file:
       - .env
