@@ -38,4 +38,8 @@ jobs:
         username: ${{ secrets.SSH_USERNAME}}
         key: ${{ secrets.SSH_PASSWORD }}
         script: |
-            mkdir temp
+            cd Sands-Of-Time
+            docker compose pull
+            docker image ls
+            docker compose up -d
+            docker ps -a
