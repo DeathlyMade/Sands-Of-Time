@@ -12,10 +12,10 @@ services:
 
   djangoapp:
     container_name: djangoapp
-    image: deathlymade/synergy:latest
-    command: python manage.py runserver 0.0.0.0:8080
+    image: deathlymade/synergy:2
+    command: python manage.py runserver 0.0.0.0:80
     ports:
-      - "8080:8080"
+      - "80:80"
     depends_on:
       - mysql
     env_file:

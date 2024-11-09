@@ -17,7 +17,7 @@ COPY ./game /app
 RUN pip install -r ./requirements.txt
 
 # Make port 8000 available to the world outside this container
-EXPOSE 8080
+EXPOSE 80
 
 # Run app.py when the container launches
 CMD ["python", "manage.py", "runserver"]
