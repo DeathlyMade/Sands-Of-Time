@@ -57,7 +57,7 @@ d = {
     "T_highness_seed": "t6",
     "G_pickle_tickle": 100,
     "T_time_keeper": "t6",
-    "G_paper_guard": 100,
+    "g_paper_guard": 100,
     "G_back_brick": 100,
     "G_laundry_steps": 100,
     "G_ev_station": 100,
