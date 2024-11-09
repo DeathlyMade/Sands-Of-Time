@@ -19,7 +19,7 @@ jobs:
     - name: Build image & push to docker hub
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: sarvesh717/infin8
+        image: deathlymade/synergy
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
@@ -37,8 +37,8 @@ jobs:
         host: ${{ secrets.HOST_IP }}
         username: ${{ secrets.SSH_USERNAME}}
         password: ${{ secrets.SSH_PASSWORD }}
-        script: |
-            cd infin8
+        +script: |
+            cd game
             docker compose pull
             docker image ls
             docker compose up -d
