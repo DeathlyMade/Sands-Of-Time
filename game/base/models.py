@@ -6,7 +6,7 @@ class User(AbstractUser):
     phone_number=models.IntegerField(null=True)
     username=models.CharField(unique=True,max_length=100,null=True)
     gold=models.IntegerField(default=0)
-    sand=models.DateTimeField(default=datetime(2024,11,10,18,30,30))
+    sand=models.DateTimeField(default=datetime(2023,10,27,12,5,30))
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
     def __str__(self) -> str:
