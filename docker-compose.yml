@@ -4,6 +4,8 @@ services:
     container_name: djangoapp
     image: deathlymade/synergy:2
     command: python manage.py runserver 0.0.0.0:80
+    volumes:
+      - .:/app
     ports:
       - "80:80"
     env_file:
