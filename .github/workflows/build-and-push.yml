@@ -39,6 +39,7 @@ jobs:
         key: ${{ secrets.SSH_PASSWORD }}
         script: |
             cd Sands-Of-Time
+            git pull origin main
             docker compose pull
             docker image ls
             docker compose up -d
